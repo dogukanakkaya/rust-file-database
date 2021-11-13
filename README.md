@@ -1,18 +1,20 @@
 # rust-file-database
 
+
+### Create a db file in the root dir of project
+```
+touch database.dawn
+``` 
+
 ### Insert values
 ```
 cargo run set name:Dogukan surname:Akkaya age:19 job:"Software Developer"
 ```
 
-<br />
-
 ### Get value
 ```
 cargo run get job
 ```
-
-<br />
 
 ### Delete value
 ```
